@@ -1,11 +1,26 @@
+
+
 html{
-  background-color: #3e577f;
+  background-color: #ffffff;
 }
 
 h1
 {
-  color: rgb(150, 230, 255);
-  background-color: #3e577f;
+  color: black;
   text-align: center;
   font-style: oblique;
+  border-bottom: solid;
+}
+
+p
+{
+  color: #001c30;
+  font-style: oblique;
+}
+
+h4
+{
+  color:#9a9ca0;
+  font-style:oblique;
+
 }
