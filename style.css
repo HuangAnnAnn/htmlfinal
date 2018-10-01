@@ -82,6 +82,14 @@ img{
   border-color: #a4c8db;
 }
 
+.favart{
+  width: 100px;
+}
+
+.annieart{
+  width: 200px
+}
+
 
 /*Dropdown Menu*/
 
@@ -146,11 +154,12 @@ img{
   text-align: left;
 }
 
-/*Color of what*/
+/*Dropdown Hover*/
 .dropdown-content a:hover {
   background-color: #ddd;
 }
 
+/*Makes the blocks*/
 .dropdown:hover .dropdown-content {
   display: block;
 }
