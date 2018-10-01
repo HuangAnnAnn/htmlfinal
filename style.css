@@ -1,29 +1,36 @@
+/*This is the general site*/
 html{
   background-color: #b2ce9a;
   font-style:oblique;
   text-align: center;
 }
 
+
+/*Headers*/
 h1
 {
   color: #a4c8db;
   text-align: center;
   border-bottom: solid;
   font-weight: bold;
-
-}
-
-p
-{
-  color: #ceba9a;
-  font-size: 15px;
 }
 
 h4
 {
   color:#b5a4a1;
+}
+
+h3
+{
+ color: #ceba9a;
+}
 
 
+/*The Body Stuff*/
+p
+{
+  color: #ceba9a;
+  font-size: 20px;
 }
 
 body
@@ -51,16 +58,6 @@ font-weight: bold;
 text-align: left;
 }
 
-h3
-{
- color: #ceba9a;
-}
-
-/* possible colors
-#ce9a9a pinkish red
-*/
-
-/*for links may not work*/
 a
 {
   font-size: 15px;
@@ -69,13 +66,33 @@ a
   text-align: right;
 }
 
+
+/*Image Stuff*/
+img{
+  width: 750px;
+  border : solid;
+  border-radius: 10px;
+  border-color: #a4c8db;
+}
+
+.profileimg{
+  width: 750px;
+  border : solid;
+  border-radius: 1000px;
+  border-color: #a4c8db;
+}
+
+
 /*Dropdown Menu*/
+
+/*Basic Navigation Bar*/
 .navbar {
   overflow: hidden;
   border:solid;
   border-color: #a4c8db;
 }
 
+/*The Links*/
 .navbar a {
   float: left;
   font-size: 16px;;
@@ -85,11 +102,13 @@ a
   text-decoration: none;
 }
 
+/*The Dropdown Menu*/
 .dropdown {
   float: left;
   overflow: hidden;
 }
 
+/*Dropdown Buttons*/
 .dropdown .dropbtn {
   font-size: 16px;
   border: none;
@@ -101,10 +120,12 @@ a
   margin: 0;
 }
 
+/*hovering over links color*/
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: #e0d6be;
 }
 
+/*The Drop Down Menu*/
 .dropdown-content {
   display: none;
   position: absolute;
@@ -115,6 +136,7 @@ a
   color: #ceba9a;
 }
 
+/*What's inside the dropdown*/
 .dropdown-content a {
   float: none;
   color: #ceba9a;
@@ -124,6 +146,7 @@ a
   text-align: left;
 }
 
+/*Color of what*/
 .dropdown-content a:hover {
   background-color: #ddd;
 }
