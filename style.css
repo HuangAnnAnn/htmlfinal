@@ -66,8 +66,31 @@ a
   text-align: right;
 }
 
+.annann{
+  font-size: 13px;
+}
+
+.GN{
+  font-size: 13px;
+
+}
+.GN1{
+  color: #3779e5;
+  font-size: 12px;
+
+}
+
+
+.GNtable{
+  font-size: inherit;
+}
+
+table{
+  border-color: #a4c8db;
+}
 
 /*Image Stuff*/
+
 img{
   width: 750px;
   border : solid;
@@ -76,18 +99,27 @@ img{
 }
 
 .profileimg{
-  width: 750px;
+  width: 500px;
   border : solid;
   border-radius: 1000px;
   border-color: #a4c8db;
 }
 
 .favart{
-  width: 100px;
+  width: 200px;
 }
 
 .annieart{
-  width: 200px
+  width: 400px;
+}
+
+/* photography formating*/
+
+.photography_photo{
+  width: 300px;
+  border color:#a4c8db;
+  border-width:5px;
+
 }
 
 
@@ -98,6 +130,7 @@ img{
   overflow: hidden;
   border:solid;
   border-color: #a4c8db;
+  font-style: oblique;
 }
 
 /*The Links*/
@@ -114,6 +147,7 @@ img{
 .dropdown {
   float: left;
   overflow: hidden;
+  font-style: oblique;
 }
 
 /*Dropdown Buttons*/
