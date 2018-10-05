@@ -122,6 +122,11 @@ img{
   width: 200px;
 }
 
+.favart1{
+  width: 225px;
+  length:inherit;
+}
+
 .annieart{
   width: 400px;
 }
@@ -149,7 +154,7 @@ img{
 /*The Links*/
 .navbar a {
   float: left;
-  font-size: 16px;;
+  font-size: 16px;
   text-align: center;
   color: #ceba9a;
   padding: 14px 16px;
