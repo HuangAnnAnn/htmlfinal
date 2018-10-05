@@ -72,17 +72,30 @@ a
 
 .GN{
   font-size: 13px;
-
 }
 .GN1{
   color: #3779e5;
-  font-size: 12px;
+  font-size: 13px;
+  float: inherit;
+}
+
+.GN2{
+  font-size: 20px;
+}
+
+.headerGN{
+  font-size:25px;
+  font-style:bold;
 
 }
 
 
 .GNtable{
   font-size: inherit;
+}
+
+.bold{
+  font-style: bold;
 }
 
 table{
@@ -116,7 +129,7 @@ img{
 /* photography formating*/
 
 .photography_photo{
-  width: 300px;
+  width: 350px;
   border color:#a4c8db;
   border-width:5px;
 
